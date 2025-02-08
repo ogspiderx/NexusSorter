@@ -13,22 +13,38 @@ NexusSorter is an intelligent file organization tool that automatically categori
 
 ## 🚀 How to Use
 
-1. **Download NexusSorter**
-   - Visit the [Releases](https://github.com/ogspiderx/NexusSorter/releases) section and download the latest **NexusSorter.exe** file.
+### **Running from Source Code (Python)**
 
-2. **Run NexusSorter**
-   - Double-click the **NexusSorter.exe** to launch the application.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/ogspiderx/NexusSorter.git
+   cd NexusSorter
+   ```
 
-3. **Provide Input**
+2. **Create a Virtual Environment (Recommended)**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Run NexusSorter**
+   ```sh
+   python nexus_sorter.py
+   ```
+
+5. **Provide Input**
    - Enter the directory path where your files need organization.
    - Choose additional sorting preferences like date-based or size-based organization.
 
-4. **Let NexusSorter Work Its Magic!**
-   - Your files will be neatly categorized into organized folders.
-   - A final summary and directory tree will be displayed.
+6. **Organized Files!**
+   - Your files will be neatly categorized into structured folders.
+   - A directory tree view will be displayed at the end.
 
-## 🔗 Download
-Get the latest version of NexusSorter from the [Releases](https://github.com/ogspiderx/NexusSorter/releases) section.
 
 Enjoy a cleaner, more organized file system with NexusSorter! 🚀
 
