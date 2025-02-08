@@ -18,10 +18,6 @@ NexusSorter is an intelligent file organization tool that automatically categori
 
 2. **Run NexusSorter**
    - Double-click the **NexusSorter.exe** to launch the application.
-   - Alternatively, run it via the command line:
-     ```sh
-     NexusSorter.exe
-     ```
 
 3. **Provide Input**
    - Enter the directory path where your files need organization.
